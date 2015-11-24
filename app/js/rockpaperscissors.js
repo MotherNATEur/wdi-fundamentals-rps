@@ -97,8 +97,7 @@ function playToFive() {
 }
 
     console.log("You chose " + playerMove + ", and Macintosh chose " + computerMove + ".");
-    console.log("The score is " + playerWins + "to" + computerWins + "!");
+    console.log("The score is " + playerWins + " to " + computerWins + "!");
+}
     return [playerWins, computerWins];
 }
-}
-
