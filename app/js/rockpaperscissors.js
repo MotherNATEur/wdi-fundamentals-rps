@@ -47,10 +47,10 @@ function getWinner(playerMove,computerMove) {
            winner = "tie";
        }
        else if (computerMove === "paper") {
-           winner = "player";
+           winner = "computer";
        }
        else if (computerMove === "scissors"); {
-           winner = "computer";
+           winner = "player";
        }
     }
     else if (playerMove === "scissors") {
@@ -99,5 +99,6 @@ function playToFive() {
     console.log("You chose " + playerMove + ", and Macintosh chose " + computerMove + ".");
     console.log("The score is " + playerWins + "to" + computerWins + "!");
     return [playerWins, computerWins];
+}
 }
 
